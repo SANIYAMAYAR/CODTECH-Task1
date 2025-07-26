@@ -1,0 +1,131 @@
+/''/
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CODTECH - Our Courses</title>
+  <link href="index.css" type="text/css" rel="stylesheet">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+    }
+
+    .courses-container {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    h2 {
+      margin-bottom: 30px;
+      font-size: 28px;
+      color: #333;
+    }
+
+    .course-cards {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .card {
+      background-color: #fff;
+      border-radius: 8px;
+      padding: 20px;
+      width: 250px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .card img {
+      width: 60px;
+      height: auto;
+    }
+
+    .card h3 {
+      margin: 15px 0 10px;
+      font-size: 20px;
+      color: #333;
+    }
+
+    .card p {
+      font-size: 14px;
+      margin: 5px 0;
+      color: #666;
+    }
+
+    .card a {
+      display: inline-block;
+      margin-top: 10px;
+      color: #007bff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .card a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="courses-container">
+    <h2>Our Courses</h2>
+    <div class="course-cards">
+
+      <div class="card">
+        <img src="images/python.png" alt="Python Logo">
+        <h3>Python</h3>
+        <p>Learn the basics of Python programming language</p>
+        <p>Duration: 2 months</p>
+        <p>Price: $300</p>
+        <a href="#">Enroll Now</a>
+      </div>
+
+      <div class="card">
+        <img src="images/cpp.png" alt="C++ Logo">
+        <h3>C++</h3>
+        <p>Learn the basics of C++ programming language</p>
+        <p>Duration: 4 months</p>
+        <p>Price: $600</p>
+        <a href="#">Enroll Now</a>
+      </div>
+
+      <div class="card">
+        <img src="images/cpp.png" alt="C++ Logo">
+        <h3>C++</h3>
+        <p>Learn the basics of C++ programming language</p>
+        <p>Duration: 4 months</p>
+        <p>Price: $600</p>
+        <a href="#">Enroll Now</a>
+      </div>
+
+      <div class="card">
+        <img src="images/cpp.png" alt="C++ Logo">
+        <h3>C++</h3>
+        <p>Learn the basics of C++ programming language</p>
+        <p>Duration: 4 months</p>
+        <p>Price: $600</p>
+        <a href="#">Enroll Now</a>
+      </div>
+
+    </div>
+  </div>
+
+  <footer>
+    © 2024 CODTECH. All rights reserved.
+  </footer>
+
+</body>
+</html>
